@@ -8,6 +8,12 @@
       <script>
         var dt = new Date();
         document.getElementById("datetime").innerHTML = dt.toLocaleString();
+        
+        function updateClock ( datetime ) {
+          setInterval(function () {
+            updateClock( datetime );
+          }, 1000);
+        
       </script>
       
       
