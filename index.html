@@ -9,9 +9,9 @@
         var dt = new Date();
         document.getElementById("datetime").innerHTML = dt.toLocaleString();
         
-        function updateClock ( datetime ) {
+        function updateClock ( dt ) {
           setInterval(function () {
-            updateClock( datetime );
+            updateClock( dt );
           }, 1000);
         
       </script>
